@@ -5,22 +5,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynamic</title>
+    <title>Liam Reeves</title>
     <link rel="stylesheet" href="{% static 'css/interface.css' %}">
+    <script src="https://kit.fontawesome.com/fd48f3693c.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+
 
 </head>
 <body>
     <nav id="desktop-nav">
+   
         <div>
+    
+            
             <ul class="nav-links">
+                <li><a href="" class="logo">Liam Reeves</a></li>
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Contact</a></li>
                 <li><a href="">Services</a></li>
+                <li><a href=""><i class="fa-solid fa-sun"></i></a></li>
             </ul>
         </div>
     </nav>
-    <marquee behavior="" direction="left"></marquee>
+
+
+    <section id="profile-section">
+       
+        <div class="profile-text">
+            <h1>Hi, I'm <span>Liam</span></h1>
+            <h2>I'm Web Developer</h2>
+            <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p> 
+            <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
+            <button>Hire Me</button>
+        </div>
+        <div class="profile-img">
+            <img src="{% static 'assets/profile.png' %}" alt="">
+          </div>
+    </section>
+
+
+    <section id="counter">
+        <div class="counter-wrapper">
+            <span class="purecounter" data-purecounter-start="0" data-purecounter-end="123" data-purecounter-duration="5">0</span>
+            <p>Positive Reviews</p>
+          </div>
+
+          
+          <div class="counter-wrapper">
+            <span class="purecounter" data-purecounter-start="0" data-purecounter-end="500" data-purecounter-duration="5">0</span>
+            <p>Happy Customers</p>
+          </div>
+
+    </section>
+
+
+
+
 
 
 {% block body %}
