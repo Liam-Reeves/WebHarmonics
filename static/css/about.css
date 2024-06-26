@@ -1,7 +1,18 @@
-.counter-wrapper span{
-    color: #18c618;
-
+#about-section{
+    margin-top: 100px;
+    margin-left: 300px;
 }
-.counter-wrapper p{
-    color: #18c618;
+
+.about h1{
+    font-size: 30px;
+    color: white;
+}
+.about h1 span{
+    color: #18c53e;
+}
+
+
+
+.about p{
+    color: aliceblue;
 }
