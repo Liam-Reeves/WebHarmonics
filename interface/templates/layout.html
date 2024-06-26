@@ -8,21 +8,20 @@
     <title>Liam Reeves</title>
     <link rel="stylesheet" href="{% static 'css/interface.css' %}">
     <script src="https://kit.fontawesome.com/fd48f3693c.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
 
 
 </head>
-<body style="background-image: url('assets/city.jpg');">
-  
+<body >
+
   <div class="wrapper">
     <div class="sidebar">
       <h2>Liam <span>Reeves</span></h2>
       <ul>
-        <li><a href=""><i class="fa-solid fa-house"></i>  Home</a></li>
-        <li><a href=""><i class="fa-solid fa-user"></i>  About</a></li>
-        <li><a href=""><i class="fa-solid fa-server"></i>  Services</a></li>
-        <li><a href=""><i class="fa-solid fa-file"></i>   Resume</a></li>
-        <li><a href=""><i class="fa-solid fa-address-book"></i>  Contact</a></li>
+        <li><a href="{% url 'index' %}"><i class="fa-solid fa-house"></i>  Home</a></li>
+        <li><a href="{% url 'about' %}"><i class="fa-solid fa-user"></i>  About</a></li>
+        <li><a href="{% url 'services' %}"><i class="fa-solid fa-server"></i>  Services</a></li>
+        <li><a href="{% url 'resume' %}"><i class="fa-solid fa-file"></i>   Resume</a></li>
+        <li><a href="{% url 'contact' %}"><i class="fa-solid fa-address-book"></i>  Contact</a></li>
   
 
       </ul>
@@ -32,20 +31,6 @@
 
 
 
-<!-- 
-    <section id="counter">
-        <div class="counter-wrapper">
-            <span class="purecounter" data-purecounter-start="0" data-purecounter-end="123" data-purecounter-duration="5">0</span>
-            <p>Positive Reviews</p>
-          </div>
-
-          
-          <div class="counter-wrapper">
-            <span class="purecounter" data-purecounter-start="0" data-purecounter-end="500" data-purecounter-duration="5">0</span>
-            <p>Happy Customers</p>
-          </div>
-
-    </section> -->
 
 
 

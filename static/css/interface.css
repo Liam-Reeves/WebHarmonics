@@ -10,6 +10,15 @@
     text-decoration: none;
 
 }
+body{
+    background-color: #000;
+    box-shadow: 0px 0px 20px  #18c53e;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
 
 #desktop-nav{
     position: sticky;
@@ -56,19 +65,19 @@
     display: flex;
 }
 .profile-text{
-    padding-left: 100px;
+    padding-left: 300px;
 
-    margin-top: 100px;
+    margin-top: 250px;
 }
 .profile-text h1{
-    color: gold;
+    font-size: 30px;
+    color: #18c618;
+   
 }
 .profile-text h2{
     color: white;
 }
-.profile-text p{
-    color: 	#FFFDD0;
-}
+
 .profile-text h1 span{
     font-size: 40px;
     font-weight: 600;
@@ -88,6 +97,10 @@
     background-size: cover;
     float: right;
     margin-left: 200px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
 }
 
 .wrapper{
@@ -98,8 +111,12 @@
     position: fixed;
     width: 200px;
     height: 100%;
+    padding-bottom: 200px;
+    border-right: #18c618 3px solid;
+    box-shadow: 0px 0px 20px  #18c53e;
+    border-radius: 6px;
     background: #000;
-    outline: 20px;
+    
     padding: 30px 0;
 
 
@@ -142,6 +159,8 @@
 .wrapper .sidebar h2 span{
     color: #18c53e;
 }
+
+
 
 
 

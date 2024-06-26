@@ -15,6 +15,9 @@ def services(request):
 def contact(request):
     return render(request, "contact.html")
 
+def resume(request):
+    return render(request, "resume.html")
+
 
 
 

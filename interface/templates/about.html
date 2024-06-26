@@ -1,6 +1,26 @@
 {% extends 'layout.html'%}
+{% load static %}
 
 {% block body%}
+<link rel="stylesheet" href="{% static 'css/about.css' %}">
+<script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+
+
+    <section id="counter">
+        <div class="counter-wrapper">
+         
+            <span class="purecounter" data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="5">0</span>
+                <p>Months+ of Experience</p>
+          </div>
+
+          
+          <div class="counter-wrapper">
+            <span class="purecounter" data-purecounter-start="0" data-purecounter-end="500" data-purecounter-duration="5">0</span>
+            <p>Happy Customers</p>
+          </div>
+
+    </section>
+
 
 
 {% endblock %}
