@@ -16,3 +16,6 @@
 .about p{
     color: aliceblue;
 }
+.about p span{
+    color: #18c53e;
+}
