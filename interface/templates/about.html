@@ -18,6 +18,15 @@
     </div>
 
     <div class="container">
+        <div class="row">
+            <i class="fa-solid fa-graduation-cap"></i> 
+             <p class="education_title">EDUCATION </p>
+        </div>
+        <i class="fa-solid fa-building"></i> 
+
+        {% for education in education %}
+        <p class="education_level">{{education.level}} <br>{{education.course_name}} <br>{{education.institution}}</p>
+        {% endfor%}
       
 
     </div>

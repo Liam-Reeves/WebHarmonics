@@ -19,3 +19,42 @@
 .about p span{
     color: #18c53e;
 }
+.container{
+    margin-top: 10px;
+    padding: 15px 10px;
+    background-color: #3e4136;
+    width:400px;
+    height: 300px;
+}
+.container .row{
+    display: flex;
+    align-items: center;
+}
+.container .education_title{
+    font-family: "Playwrite US Trad", cursive;;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 10px;
+    color: #FFF;
+    margin-top: 20px;
+
+}
+
+
+.container i{
+    margin-top: 20px;
+    margin-left: 40px;
+    border:#fff;
+    border-radius: 5px;
+    font-size: 30px;
+    color: #18c53e;
+}
+.education_level{
+    
+    color: #fff;
+    text-align: center;
+    
+
+    
+}
