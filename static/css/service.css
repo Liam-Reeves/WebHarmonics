@@ -1,0 +1,185 @@
+
+li{
+    list-style: none;
+}
+#service_section{
+    margin-top: 50px;
+    margin-left: 300px;
+}
+#service_section h1{
+    font-size: 40px;
+    color: white;
+}
+#service_section h1 span{
+    font-size: 40px;
+    color:#4ceb95;
+}
+.service_cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 200px;
+    margin-left: 160px;
+
+}
+.first_card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 50px 25px;
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background: black;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px #EF5980;
+  
+    transition: transform 0.5s, ease-in-out, 0.3s, color 0.3s;
+
+}
+.first_card:hover{
+    color: black;
+    background: #201618;
+    box-shadow: 0px 0px 15px #EF5980;
+    transform: translateY(-10px);
+}
+
+.first_card i{
+    font-size: 50px;
+    color: #EF5980;
+    transition: color 0.3s;
+}
+
+
+.card_one_text{
+
+    font-size: 14px;
+    color: #fff;
+}
+.first_card h4{
+    color: #fff;
+}
+
+.first_card h4 span{
+    font-size: 20px;
+    color: #EF5980;
+    transition: color 0.3s;
+
+}
+
+
+.second_card{
+
+    
+    padding: 50px 25px;
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background: black;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px#4ceb95;
+    transition: transform 0.5s, ease-in-out, 0.3s, color 0.3s;
+}
+.second_card i{
+    color: #4ceb95;
+    font-size: 50px;
+    transition: color 0.3s;
+}
+
+.second_card h4{
+    color: #fff;
+}
+.second_card span{
+    color: #4ceb95;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+.card_two_text{
+    font-size: 14px;
+    color: #fff;
+}
+
+.second_card:hover{
+ 
+    background:#201618;
+    box-shadow: 0px 0px 15px #4ceb95;
+    transform: translateY(-10px);
+
+}
+
+.third_card{
+    margin-top: 20px;
+    padding: 50px 25px;
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background: black;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px #CC5500;
+    transition: transform 0.5s, ease-in-out, 0.3s, color 0.3s;
+}
+
+.third_card i{
+    color: #CC5500;
+    font-size: 50px;
+    transition: color 0.3s;
+}
+
+.third_card h4{
+    color: #fff;
+}
+.third_card span{
+    color: #CC5500;
+}
+
+.third_card:hover{
+    background: #201618;
+    box-shadow: 0px 0px 15px #CC5500;
+    transform: translateY(-10px);
+}
+.card_third_text{
+    color: #fff;
+}
+
+.fourth_card{ 
+    margin-top: 20px;
+    padding: 50px 25px;
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background: black;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px #AAFF00;
+    transition: transform 0.5s, ease-in-out, 0.3s, color 0.3s;
+}
+
+.fourth_card i{
+    color: #AAFF00;
+    font-size: 50px;
+    transition: color 0.3s;
+}
+
+.fourth_card h4{
+    color: #fff;
+}
+.fourth_card h4 span{
+    color: #AAFF00;
+    transition: color 0.3s;
+}
+.card_fourth_text{
+    color: #fff;
+}
+
+.fourth_card:hover{
+    background: #201618;
+    box-shadow: 0px 0px 15px #AAFF00;
+    transform: translateY(-10px);
+}
