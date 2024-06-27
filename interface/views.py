@@ -2,14 +2,18 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from .models import Education
 
+
 # Create your views here.
 
 def index(request):
     return render(request, "index.html")
 
 def about(request):
-    education = Education.objects.all()
-    return render(request, "about.html", {'education': education })
+    context = {}  
+    context['education'] = Education.objects.all()
+ 
+    return render(request, "about.html", context)
+
 
 def services(request):
     return render(request, "services.html")

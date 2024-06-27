@@ -10,6 +10,12 @@ def __str__(self):
     return self.level
     
 class Meta:
-        verbose_name_plural = "Education"
+    verbose_name_plural = "Education"
+
+
+
+
+
+   
 
 

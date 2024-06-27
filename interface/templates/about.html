@@ -9,27 +9,80 @@
 <section id="about-section">
     <div class="about">
         <h1>About <span>Me</span></h1>
-        <p>Passionate about coding , contributing to projects, eager to learn </p>
+        <!-- <p>Passionate about coding , contributing to projects, eager to learn </p>
             <p> Experience in languages like <span><b>Python, Kotlin, HTML5, CSS, Vanilla Javascript</b></span> and frameworks such as <span><b>Django, Jetpack Compose</b></span>
             </p>
-           
+            -->
 
 
     </div>
 
-    <div class="container">
+  <div class="overall_container">
+    <div class="bio_container">
         <div class="row">
-            <i class="fa-solid fa-graduation-cap"></i> 
-             <p class="education_title">EDUCATION </p>
+           
+             <p class="bio">Bio </p>
         </div>
-        <i class="fa-solid fa-building"></i> 
+        <p> <i class="fa-solid fa-cake-candles"></i></i> 19th May 2006</p>
+        <p><i class="fa-solid fa-check"></i> Age: 18 years </p>
+        <p><i class="fa-solid fa-person"></i> Gender: Male</p>
 
-        {% for education in education %}
-        <p class="education_level">{{education.level}} <br>{{education.course_name}} <br>{{education.institution}}</p>
-        {% endfor%}
+    
+
+ 
       
 
     </div>
+    <div class="card_container">
+        <div class="row">
+       
+             <p class="education_title">Education</p>
+            </div>
+            <i class="fa-solid fa-graduation-cap"></i> 
+            {% for education in education %}
+            <marquee class="education_level">{{education.level}} <br>{{education.course_name}} <br>{{education.institution}}</marquee>
+            {% endfor%}
+
+
+
+    </div>
+    <div class="skills_container">
+        <div class="row">
+   
+             <p class="education_title">Skills </p>
+        </div>
+        <i class="fa-solid fa-paint-roller"></i>
+        <p>Languages and Frameworks</p>
+        <div class="socials">
+            <i class=" social1 fa-brands fa-python"></i>
+            <i class=" social2 fa-js"></i> 
+            <i class=" social3 fa-brands fa-html5"></i> 
+            <i class=" social4 fa-brands fa-css3-alt"></i> 
+        </div>
+
+ 
+
+
+ 
+
+
+      
+
+    </div>
+    <div class="container">
+        <div class="row">
+   
+             <p class="education_title">Skills </p>
+        </div>
+        <i class="fa-solid fa-paint-roller"></i>
+ 
+
+
+      
+
+    </div>
+  </div>
+
 </section>
 
 
