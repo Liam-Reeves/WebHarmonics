@@ -14,6 +14,16 @@ class Meta:
 
 
 
+class Profile(models.Model):
+    name=models.CharField(max_length=64)
+    birthday=models.DateField(max_length=100)
+    nationality=models.CharField(max_length=64)
+    languages=models.CharField(max_length=100)
+    email=models.EmailField(max_length=100)
+
+
+
+
 
 
    

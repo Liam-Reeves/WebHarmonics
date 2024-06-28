@@ -9,6 +9,26 @@
 <section id="about-section">
     <div class="about">
         <h1>About <span>Me</span></h1>
+        <div class="profile_section">
+           
+            <div class="profile_card">
+                <i class="fa-solid fa-user"></i>   <h3>Profile</h3>
+                {% for profile in profile%}
+                <p><span>Name: </span> <br> {{profile.name}}</p>
+                <p><span>Birthday: </span> <br> {{profile.birthday}}</p>
+                <p><span>Nationality: </span> <br>{{profile.nationality}}</p>
+                <p><span>Languages: </span> <br> {{profile.languages}}</p>
+                <p><span>Email: </span> {{profile.email}}</p>
+                {% endfor %}
+                
+                    <button onclick="downloadCV()">Download CV</button>
+           
+
+            </div>
+         
+
+        </div>
+
     
 
 
@@ -17,6 +37,7 @@
 
 
 </section>
+<script src="{% static 'js/interface.js'%}"></script>
 
 
 

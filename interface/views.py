@@ -1,6 +1,9 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from .models import Education
+from django.db import models
+
+from interface.models import Education, Profile
+
 
 
 # Create your views here.
@@ -9,7 +12,7 @@ def index(request):
     return render(request, "index.html")
 
 def about(request):
-    context = {}  
+    context = {'profile': Profile.objects.all()}
     context['education'] = Education.objects.all()
  
     return render(request, "about.html", context)
