@@ -1,6 +1,174 @@
-form{
-    margin-left: 400px;
+.section_heading{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
 }
-p{
+.section_heading h1{
+    font-size: 40px;
+    
+    margin-left: 300px;
+    padding: 10px 0px;
     color: #fff;
+}
+.section_heading h1 span{
+    color:#4ceb95 ;
+}
+
+.contact_details{
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 50px 25px;
+    background: #0B0B0B ;
+    border: none;
+    border-radius: 15px;
+  
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    margin-left: 300px;
+}
+.phone_info{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    width: 400px;
+    height: 100px;
+    border: none;
+    border-radius: 15px;
+  
+}
+.phone_info i{
+    border-radius: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+   color: #EF5980;
+    
+}
+.phone_info h4{
+     font-size: 25px;
+    color: gray;
+}
+.phone_info p{
+    padding-top: 5px;
+    padding-left: 30px;
+    color:antiquewhite;
+}
+.email_info{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    width: 400px;
+    height: 100px;
+    border: none;
+    border-radius: 15px;
+  
+}
+.email_info h4{
+    font-size: 25px;
+   color: gray;
+}
+.email_info i{
+    border-radius: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+   color:  #4ceb95;
+}
+.email_info p{
+    padding-top: 5px;
+    padding-left: 30px;
+    color:antiquewhite;
+
+}
+
+.address_info{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    width: 400px;
+    height: 100px;
+  
+    border: none;
+    border-radius: 15px;
+  
+}
+.address_info h4{
+    font-size: 25px;
+   color: gray;
+}
+
+.address_info i{
+    border-radius: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    color: #CC5500;
+
+}
+
+.address_info p{
+    padding-top: 5px;
+    padding-left: 30px;
+    color:antiquewhite;
+}
+
+.location_info{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    width: 400px;
+    height: 100px;
+    border: none;
+    border-radius: 15px;
+}
+.location_info h4{
+    font-size: 25px;
+   color: gray;
+}
+
+.location_info i{
+    border-radius: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+   color: #AAFF00;
+}
+
+.location_info p{
+    padding-top: 5px;
+    padding-left: 30px;
+    color:antiquewhite;
+}
+form{
+    background: #0B0B0B;
+    margin-left: 100px;
+    float: right;
+    margin-right: 80px;
+    align-items: center;
+ 
+}
+.form_heading h2{
+    font-size: 30px;
+    color: #fff;
+}
+.form_heading span{
+    font-size: 30px;
+    color:#4ceb95;
+
+}
+.form-field input{
+    padding-bottom:20px;
+    background-color: #0B0B0B;
+    color: antiquewhite;
+    font-size: 1rem;
+  
+    border-radius: 15px;
+
+}
+.form-field textarea{
+    padding-bottom:20px;
+    background-color: #0B0B0B;
+    color: antiquewhite;
+    font-size: 1rem;
+
+    border-radius: 5px;
 }

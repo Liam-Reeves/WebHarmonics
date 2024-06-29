@@ -6,22 +6,50 @@
 
 <link rel="stylesheet" href="{% static 'css/contact.css' %}">
 <section class="contact_section">
-    <h1>Contact <span>Me</span></h1>
-    <form method="POST">
+    <div class="section_heading">
+        <h1>Contact <span>Me</span></h1>
+        <h1>Send a <span>Message</span></h1>
 
-        <div class="name_field">
-            <label>Name:</label>
+    </div>
+    
+    <div class="contact_details">
+
+        <div class="phone_info">
+           <h4><i class="fa-solid fa-phone-volume"></i> Call Me</h4> 
+           <p>+254 719-711-317</p>
+        </div>
+
+        <div class="email_info">
+          <h4><i class="fa-solid fa-envelope"></i> Email Me</h4>
+          <p>wesleyliam005@gmail.com</p>
+        </div>
+
+        <div class="address_info">
+            <h4><i class="fa-solid fa-location-crosshairs"></i> My Address</h4>
+            <p>P.O BOX 3700-00100</p>
+        </div>
+
+        <div class="location_info">
+          <h4><i class="fa-solid fa-location-dot"></i> Location</h4>             
+            <p>Nairobi, Kenya</p>
+        </div>
+
+    </div>
+
+<form method="POST">
+   
+        {% csrf_token %}
+
+        <div class="form-field">
              {{form.name}}
                  
         </div>
 
-        <div class="email-field">
-            <label>Email:</label>
+        <div class="form-field">
             {{form.email}}
         </div>
 
-        <div class="message-field">
-            <label>Message:</label>
+        <div class="form-field">
             {{form.message}}
         </div>
         <button type="submit">Submit</button>
