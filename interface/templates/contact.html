@@ -1,6 +1,36 @@
 {% extends 'layout.html'%}
 
+{% load static %}
+
 {% block body%}
+
+<link rel="stylesheet" href="{% static 'css/contact.css' %}">
+<section class="contact_section">
+    <h1>Contact <span>Me</span></h1>
+    <form method="POST">
+
+        <div class="name_field">
+            <label>Name:</label>
+             {{form.name}}
+                 
+        </div>
+
+        <div class="email-field">
+            <label>Email:</label>
+            {{form.email}}
+        </div>
+
+        <div class="message-field">
+            <label>Message:</label>
+            {{form.message}}
+        </div>
+        <button type="submit">Submit</button>
+
+
+
+    </form>
+
+</section>
 
 
 {% endblock %}
