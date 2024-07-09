@@ -20,6 +20,19 @@ class Profile(models.Model):
     nationality=models.CharField(max_length=64)
     languages=models.CharField(max_length=100)
     email=models.EmailField(max_length=100)
+    
+    def __str__(self):
+        return self.name
+
+class Project(models.Model):
+    name=models.CharField(max_length=100, blank=False)
+    description=models.TextField(max_length=1000, blank=False)
+    image= models.ImageField(upload_to='uploads/project/')
+    
+    def __str__(self):
+        return self.name
+
+    
 
 
 

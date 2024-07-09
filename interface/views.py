@@ -49,8 +49,8 @@ def contact(request):
 def contact_success(request):
     return render(request, 'contact_success.html')
 
-def resume(request):
-    return render(request, "resume.html")
+def projects(request):
+    return render(request, "projects.html")
 
 
 
